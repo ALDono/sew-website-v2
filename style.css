@@ -694,7 +694,7 @@ main{
   }
 
   .social-container img{
-    width: 256px;
+    width: 128px;
   }
 
   .social-container h3{
@@ -705,6 +705,27 @@ main{
 /* footer */
 
 footer{
-  height: 500px;
+  height: 250px;
   background-color: var(--clr-main-20);
+}
+
+
+
+/* About Us */
+
+.about-wrapper{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--spc-sm);
+  max-width: 1100px;
+  margin: var(--spc-sm) auto;
+  padding: var(--spc-sm);
+}
+
+.about-section p{
+  font-size: 1.5rem;
+}
+
+.about-section h3{
+  font-size: 2rem;
 }
