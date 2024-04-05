@@ -217,9 +217,8 @@ h3{
 .navigation{
   margin: 0 auto;
   display: flex;
-  flex-direction: column;
   flex-wrap: flex;
-  justify-content: center;
+  justify-content: space-around;
   gap: var(--spc-sm);
   align-items: center;
   padding: var(--spc-sm);
@@ -227,7 +226,19 @@ h3{
 
 .logo img{
   width: 100px;
+  animation: logoFadeIn 2s ease-in-out;
 }
+
+@keyframes logoFadeIn {
+  from{
+    opacity: 0;
+  }to{
+    opacity: 1;
+  }
+  
+}
+
+
 
 .nav-button{
   width: 50px;
@@ -264,7 +275,7 @@ nav ul{
 /* hero section */
 
 .hero-image-container{
-  background: linear-gradient(#EBB42C00,#EBB42C00,var(--clr-main-10));
+  background: linear-gradient(#F5DA9600,#F5DA9600,var(--clr-accent-10));
   margin-top: var(--spc-sm);
   padding: var(--spc-sm);
   position: relative;
@@ -306,7 +317,7 @@ nav ul{
 @media(min-width: 1100px){
 
   .hero-image-container{
-    background: linear-gradient(#EBB42C00,#EBB42C00,var(--clr-main-10));
+    background: linear-gradient(#F5DA9600,#F5DA9600,var(--clr-accent-10));
   }
 
   .hero-image{
@@ -380,7 +391,7 @@ nav ul{
 .info-strip{
   height: 200px;
   /* background-color: var(--clr-main-20); */
-  background-color: var(--clr-main-10);
+  background-color: var(--clr-accent-10);
   display: none;
 }
 
