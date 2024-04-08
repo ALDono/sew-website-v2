@@ -265,6 +265,10 @@ nav ul{
 
 }
 
+nav ul li a:hover{
+  text-decoration: underline;
+}
+
 /* Tablet Sizes */
 @media(min-width: 790px){
   .nav-button{
