@@ -103,7 +103,7 @@
     #img-2 {
         width: 340px;
         height: 340px;
-        background: url('images/blankets/bl-me-3-1.jpg') no-repeat #FFF;
+        background: url('') no-repeat #FFF;
         box-shadow: 0 5px 10px -2px rgba(0,0,0,0.3);
         pointer-events: none;
         position: absolute;

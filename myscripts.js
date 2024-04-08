@@ -61,6 +61,8 @@ const zoomer = (e => {
     const zoomImg = document.querySelector("#img-2");
     const mainImg = document.querySelector("#img-1");
 
+      zoomImg.style.backgroundImage = 'url('+mainImg.src+')';
+
     prevImg1.addEventListener("click",function(){
         mainImg.src = this.src ;
         zoomImg.style.backgroundImage = 'url('+this.src+')';
