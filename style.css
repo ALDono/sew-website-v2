@@ -327,7 +327,7 @@ nav ul li a:hover{
   left:0%;
   position:absolute;
   transform:translateY(0px);
-  object-fit:fill;
+  object-fit:cover;
   animation:movementMain 50s ease-in-out infinite;
 }
 
