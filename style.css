@@ -446,11 +446,26 @@ nav ul li a:hover{
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: calc(var(--spc-sm)/5)
+  gap: calc(var(--spc-sm)/5);
+  position: relative;
 }
 
 .product-card img{
   border-radius: var(--br);
+}
+
+.product-discount{
+  position: absolute;
+  text-align: center;
+  width: 100px;
+  top: 10px;
+  left: -30px;
+  transform: rotate(320deg);
+  background-color: white;
+}
+
+.strikedPrice{
+  text-decoration: line-through;
 }
 
 /* Tablet Size Product Highlights */
