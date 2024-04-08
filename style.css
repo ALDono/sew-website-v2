@@ -175,7 +175,7 @@ h3{
   color: var(--clr-main-20);
   font-weight: var(--fw-bold);
   background: none;
-  border: var(--clr-main-20) 2px solid;
+  border: var(--clr-main-20) 4px solid;
   border-radius: 8px;
   height: 50px;
   width: 150px;
@@ -239,19 +239,30 @@ h3{
   
 }
 
+nav{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--spc-sm);
+}
 
 
 .nav-button{
   width: 50px;
   background: none;
+  margin: 0;
   border: none;
 }
 
 nav ul{
   list-style: none;
   padding: 0;
-  text-align: center;
   display: none;
+  flex-direction: column;
+  gap: var(--spc-sm);
+  z-index: 1000;
+  align-items: center;
+
 }
 
 /* Tablet Sizes */
@@ -290,7 +301,7 @@ nav ul{
   overflow: hidden;
   position:relative;
   display:flex;
-  background: url(images/heroimageSquare.png);
+  /* background: url(images/heroimageSquare.png); */
   height: 500px;
   
 }
@@ -312,10 +323,17 @@ nav ul{
   left:0%;
   position:absolute;
   transform:translateY(0px);
+  object-fit:fill;
   animation:movementMain 50s ease-in-out infinite;
 }
 
 
+@media(min-width: 790px){
+  .hero-image img:nth-child(1) {
+    object-fit:cover;
+  }
+  
+}
 
 
 @media(min-width: 1100px){
@@ -360,7 +378,7 @@ nav ul{
 
   @keyframes movementMain {
     0%{
-      opacity:0;
+      opacity:1;
     }
      5%{
       opacity:1;
@@ -393,7 +411,7 @@ nav ul{
 /* Info strip */
 
 .info-strip{
-  height: 200px;
+  height: 50px;
   /* background-color: var(--clr-main-20); */
   background-color: var(--clr-accent-10);
   display: none;
@@ -464,6 +482,7 @@ main{
   margin-top: var(--spc-sm);
   animation: moveIn linear;
   animation-timeline: view(1800px 5px);
+  padding-bottom: calc(var(--spc-sm)*4)
 }
 
 @keyframes moveIn {
@@ -509,7 +528,6 @@ main{
 
 #workathomeImg{
   width: 250px;
-  border-radius: var(--br);
 }
 
 .main-block-left img, .main-block-right img{
@@ -705,9 +723,23 @@ main{
 /* footer */
 
 footer{
-  height: 250px;
   background-color: var(--clr-main-20);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: var(--spc-sm);
+  padding: var(--spc-sm);
+
 }
+
+footer p{
+  color: var(--clr-main-10);
+}
+
+footer a{
+  color: var(--clr-main-10);
+}
+
 
 
 
@@ -728,4 +760,18 @@ footer{
 
 .about-section h3{
   font-size: 2rem;
+}
+
+
+
+/* Contact Form */
+
+.contact-form{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#yourMessage{
+  width: 100%;
 }

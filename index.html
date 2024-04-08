@@ -16,10 +16,10 @@
       <a href="index.html"><img src="images/Original Green on Transparent Simplified.png" alt=""></a>
     </div>
     <nav>
-      <button class="nav-button">
-        <img src="images/Hamburger_icon_green.png" alt="">
+      <button id="navButton" class="nav-button">
+        <img id="navButtonImage" src="images/Hamburger_icon_green.png" alt="">
       </button>
-      <ul>
+      <ul id="navLinks">
         <li><a href="index.html">Home</a></li>
         <li><a href="blankets.html">Blankets</a></li>
         <li><a href="crafts.html">Crafts</a></li>
@@ -76,7 +76,7 @@
         <div class="main-block-left" id="first-block">
           <p>Our passion is creating <span class="fw-bold">hand-made blankets</span>, crafts and embroidered products from our home in Dorset</p>
           <a href="blankets.html"><button class="btn">Products</button></a>
-          <img id="workathomeImg" src="images/background2.jpg" alt="">
+          <img src="images/house.png" alt="">
         </div>
       </div>
 
@@ -84,14 +84,14 @@
         <div class="main-block-right" id="second-block">
           <p>We use <span class="fw-bold">recycled materials</span> where we can to create our lovingly hand-sewn blankets</p>
           <img src="images/waste.png" alt="">
-          <button class="btn">Socials</button>
+          <a href="#socials"><button class="btn">Socials</button></a>
         </div>
       </div>
 
       <div class="main-block">
         <div class="main-block-left" id="third-block">
           <p>You can browse our list of products on this website, or if you have a particular need you can <span class="fw-bold">get in contact</span> with us below </p>
-          <button class="btn">Contact</button>
+          <a href="contact.html"><button class="btn">Contact</button></a>
           <img src="images/chat.png" alt="">
         </div>
       </div>
@@ -110,7 +110,7 @@
       <img src="images/jazmin-quaynor-bYOi200uQ6w-unsplash.jpg" alt="">
     </div>
   </section>
-  <section class="socials">
+  <section id="socials" class="socials">
     <div class="social-container">
       <h3>Join us on Instagram</h3>
       <a target="_blank" href="https://www.instagram.com/somethingeveryonewantsshop/"><img src="images/instagram_social.svg" alt=""></a>
@@ -122,7 +122,16 @@
   </section>
 
   <footer>
-    Footer to be done
+    <div class="left-footer">
+      <img src="images/Original on Transparent Simplified.png" width="128px" alt="">
+    </div>
+    <div class="center-footer">
+      <p>Copyright 2024 - Something Everyone Wants. All rights reserved</p>
+    </div>
+    <div class="right-footer">
+      <a href="policy.html">Privacy Policy</a> | <a href="policy.html">Cookie Policy</a>
+    </div>
   </footer>
+  <script src="myscripts.js" type="text/javascript"></script>
 </body>
 </html>
