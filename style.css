@@ -331,6 +331,18 @@ nav ul li a:hover{
   animation:movementMain 50s ease-in-out infinite;
 }
 
+.product-discount-main{
+  position: absolute;
+  text-align: center;
+  width: 400px;
+  top: 70px;
+  left: -90px;
+  transform: rotate(320deg);
+  background-color: white;
+  z-index: 900;
+  font-size: 1.5rem;
+}
+
 
 @media(min-width: 790px){
   .hero-image img:nth-child(1) {
