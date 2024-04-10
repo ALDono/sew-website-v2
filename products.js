@@ -26,7 +26,7 @@ const zoomer = (e => {
       style.backgroundPositionX = `${xperc - 9}%`;
       style.backgroundPositionY = `${yperc - 9}%`;
     //This adjusts the position of the magnifying glass   
-      style.left = `${x + 150}px`;
+      style.left = `${x + 560}px`;
       style.top = `${y + 180}px`;
     }
   
