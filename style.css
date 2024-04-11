@@ -799,14 +799,43 @@ footer a{
 
 /* Contact Form */
 
-.contact-form{
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.contact-section{
+  margin-top: 5rem;
 }
 
-#yourMessage{
+.contact-form{
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.form-input-wrapper{
+  display:flex;
+  flex-wrap:wrap;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+.form-input{
+  border: none;
+  border-radius: 8px;
+  height: 40px;
+  width: 340px;
+  padding: 1rem;
+  background-color: var(--clr-accent-10);
+}
+
+.form-message-section{
+  margin-top: 2rem;
+}
+
+.form-input-message{
+  background-color: var(--clr-accent-10);
+  border: none;
+  border-radius: 8px;
+  height: 200px;
   width: 100%;
+  padding: 1rem;
 }
 
 /***************/
