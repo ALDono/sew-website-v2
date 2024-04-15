@@ -457,6 +457,7 @@ nav ul li a:hover{
 }
 
 .product-card{
+  
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -464,8 +465,21 @@ nav ul li a:hover{
   position: relative;
 }
 
+.product-card:hover{
+  
+  img{
+    box-shadow: 0px 2px 4px #00000050;;
+  }
+}
+
+
 .product-card img{
   border-radius: var(--br);
+  box-shadow: 2px 4px 8px #00000050;
+}
+
+.product-card h3{
+  margin-top: 0.5rem;
 }
 
 .product-discount{
