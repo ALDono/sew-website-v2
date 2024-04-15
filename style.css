@@ -645,6 +645,7 @@ main{
     border-radius: var(--br);
   }
   .main-block{
+    margin-top: 5rem;
     height:290px;
   }
 
