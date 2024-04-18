@@ -170,6 +170,7 @@ h3{
 }
 
 .btn{
+  position: relative;
   font-size: var(--fs-p);
   color: var(--clr-main-20);
   font-weight: var(--fw-bold);
@@ -180,6 +181,15 @@ h3{
   width: 150px;
   box-shadow: 2px 4px 8px #00000050;
 
+}
+
+.seam {
+  position: relative;
+  display: block;
+  padding: 3px 9px;
+  border: 3px dashed var(--clr-main-20);
+  border-radius: 3px;
+  text-align: center;
 }
 
 .btn:hover{
@@ -525,7 +535,10 @@ nav ul li a:hover{
 
 
 main{
+  border-top: 3px dashed var(--clr-main-20);
+  border-bottom: 3px dashed var(--clr-main-20);
   background-color: var(--clr-accent-10);
+  background-image: url("images/45-degree-fabric-dark.png");
   margin-top: var(--spc-sm);
   animation: moveIn linear;
   animation-timeline: view(1800px 5px);
