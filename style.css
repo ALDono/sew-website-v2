@@ -136,6 +136,7 @@ body{
   font-weight: 700;
   font-size: var(--fs-p);
   color: var(--clr-main-20);
+  background-image: url("images/cross-scratches.png");
 }
 
 .bdr-dbl-radius{
@@ -305,6 +306,7 @@ nav ul li a:hover{
 /* hero section */
 
 .hero-image-container{
+  
   /* background: linear-gradient(#F5DA9600,#F5DA9600,var(--clr-accent-10)); */
   margin-top: var(--spc-sm);
   padding: var(--spc-sm);
@@ -312,6 +314,7 @@ nav ul li a:hover{
 }
 
 .hero-image{
+  border: dashed 3px  var(--clr-main-20);
   border-radius: var(--br);
   overflow: hidden;
   position:relative;
@@ -467,7 +470,6 @@ nav ul li a:hover{
 }
 
 .product-card{
-  
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -500,6 +502,7 @@ nav ul li a:hover{
   left: -30px;
   transform: rotate(320deg);
   background-color: white;
+  background-image: url("images/cross-scratches.png");
 }
 
 .strikedPrice{
@@ -698,6 +701,7 @@ main{
 
 .section-left-wrapper{
   background-color: var(--clr-accent-20);
+  background-image: url("images/cloth-alike.png");
   display:flex;
   flex-direction: column;
   align-items: center;
@@ -853,6 +857,7 @@ footer a{
   width: 300px;
   padding: 1rem;
   background-color: var(--clr-accent-10);
+  background-image: url("images/cross-scratches.png");
 }
 
 .form-message-section{
@@ -861,6 +866,7 @@ footer a{
 
 .form-input-message{
   background-color: var(--clr-accent-10);
+  background-image: url("images/cross-scratches.png");
   border: none;
   border-radius: 8px;
   height: 200px;
