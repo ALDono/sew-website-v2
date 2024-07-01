@@ -16,3 +16,25 @@ navButton.addEventListener("click",function(){
     navButtonImage.src = "images/Hamburger_icon_green.png"
   }
 })
+
+
+const observer = new IntersectionObserver((entries) => {
+  entries.forEach((entry) =>{
+    console.log(entry.target.className)
+    let subStr = entry.target.className;
+    if (entry.isIntersecting && subStr.includes("block-left")){
+      entry.target.classList.add("first-block-anim");
+    }
+    if (entry.isIntersecting && subStr.includes("block-right")){
+      entry.target.classList.add("second-block-anim");
+    }
+  });
+});
+
+const aboutElement = document.querySelectorAll("#first-block");
+const articleLeftElement = document.querySelectorAll("#second-block");
+const articleRightElement = document.querySelectorAll("#third-block");
+
+aboutElement.forEach((el) => observer.observe(el));
+articleLeftElement.forEach((el) => observer.observe(el));
+articleRightElement.forEach((el) => observer.observe(el));

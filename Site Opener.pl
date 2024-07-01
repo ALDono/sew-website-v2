@@ -1,0 +1,3 @@
+Afternoon,  My name's Aubrey, I'm based in Bournemouth and I'm looking for local businesses to create websites for. I saw your post on Local Businesses on Facebook and wondered if there would be any interest from yourself to add another tool to your online presence.
+
+I'm just starting out on my own freelancing, so I'm looking to create some really great looking and performing sites to build my portfolio, so at this early stage I'm offering some really competitive pricing.

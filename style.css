@@ -598,14 +598,13 @@ main{
 }
 
 
-#first-block{
-  animation: moveFirst linear;
-  animation-timeline: view(1200px 10px);
+.first-block-anim{
+  animation: moveFirst 1s ease-in-out;
 }
 
 @keyframes moveFirst {
   from{
-    transform: translateX(-1000px);
+    transform: translateX(-100px);
     opacity: 0;
   }to{
     transform: translateX(0px);
@@ -614,14 +613,13 @@ main{
   
 }
 
-#second-block{
-  animation: moveSecond linear;
-  animation-timeline: view(1200px 10px);
+.second-block-anim{
+  animation: moveSecond 1s ease-in-out;
 }
 
 @keyframes moveSecond {
   from{
-    transform: translateX(+1000px);
+    transform: translateX(+100px);
     opacity: 0;
   }to{
     transform: translateX(0px);
@@ -630,14 +628,13 @@ main{
   
 }
 
-#third-block{
-  animation: moveFirst linear;
-  animation-timeline: view(1200px 10px);
+.third-block-anim{
+  animation: moveFirst 1s ease-in-out;
 }
 
 @keyframes moveFirst {
   from{
-    transform: translateX(-1000px);
+    transform: translateX(-100px);
     opacity: 0;
   }to{
     transform: translateX(0px);
