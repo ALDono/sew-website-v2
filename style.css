@@ -600,7 +600,7 @@ main{
 
 
 .first-block-anim{
-  animation: moveFirst 1s ease-in-out;
+  animation: moveFirst 1s ease-in-out forwards;
 }
 
 @keyframes moveFirst {
@@ -615,7 +615,7 @@ main{
 }
 
 .second-block-anim{
-  animation: moveSecond 1s ease-in-out;
+  animation: moveSecond 1s ease-in-out forwards;
 }
 
 @keyframes moveSecond {
